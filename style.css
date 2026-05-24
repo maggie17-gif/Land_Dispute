@@ -8,13 +8,18 @@ body{
     background-color: seagreen;
     background-size: cover;
     color: black;
+    background-image: url(image/Land-Disputes-Common-Causes-and-Solutions.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .Registration_form {
     position: absolute;
     top: 50%;
     left: 50%;
-    box-shadow: 0 0 25px 25px lightgreen;
+    box-shadow: 0 0 25px 25px antiquewhite;
     transform: translate(-50%,-50%);
     width: 1000px;
     border: 0;
@@ -73,7 +78,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    box-shadow: 0 0 25px 25px lightgreen;
+    box-shadow: 0 0 25px 25px antiquewhite;
     transform: translate(-50%,-50%);
     width: 1000px;
     border: 0;
