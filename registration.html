@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login form</title>
+    <title>Registration form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="log-in">
+   <div class="Registration_form">
     <h1>Land Dispute Case Management</h1>
-    <form action="#">
+    <form >
+        <label for="fname">Name</label><br>
+        <input type="text" id="fname" name="fullname" placeholder="Enter Your Name"><br>
         <label for="username">Username</label><br>
         <input type="text" id="username" name="username" placeholder="Enter Your Username"><br>
         <label for="password">Password</label><br>
         <input type="password" id="password" placeholder="Enter Your Password"><br>
-        <button type="submit">Login</button><br>
-        <p>Don't have an account? <a href="registration.html" >Sign up</a></p>
+        <label for="password">Confirm Password</label><br>
+        <input type="password" id="password" placeholder="Rewrite Your Password"><br>
+        <button type="submit">Sign up</button><br>
+        <p>Already have an account? <a href="index.html" >Login</a></p>
     </form>
    </div>
 </body>
